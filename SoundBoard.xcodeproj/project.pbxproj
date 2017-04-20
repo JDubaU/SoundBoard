@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C6495E3E1E9D3A5900E8791B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6495E3D1E9D3A5900E8791B /* AppDelegate.swift */; };
-		C6495E401E9D3A5900E8791B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6495E3F1E9D3A5900E8791B /* ViewController.swift */; };
 		C6495E431E9D3A5900E8791B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6495E411E9D3A5900E8791B /* Main.storyboard */; };
 		C6495E461E9D3A5900E8791B /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6495E441E9D3A5900E8791B /* SoundBoard.xcdatamodeld */; };
 		C6495E481E9D3A5900E8791B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6495E471E9D3A5900E8791B /* Assets.xcassets */; };
 		C6495E4B1E9D3A5900E8791B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6495E491E9D3A5900E8791B /* LaunchScreen.storyboard */; };
+		C6E0479F1E9DF68900A9DF1C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0479E1E9DF68900A9DF1C /* HomeViewController.swift */; };
+		C6E047A11E9DF6FC00A9DF1C /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E047A01E9DF6FC00A9DF1C /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6495E3A1E9D3A5900E8791B /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6495E3D1E9D3A5900E8791B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6495E3F1E9D3A5900E8791B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6495E421E9D3A5900E8791B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6495E451E9D3A5900E8791B /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
 		C6495E471E9D3A5900E8791B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6495E4A1E9D3A5900E8791B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6495E4C1E9D3A5900E8791B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E0479E1E9DF68900A9DF1C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C6E047A01E9DF6FC00A9DF1C /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C6495E3D1E9D3A5900E8791B /* AppDelegate.swift */,
-				C6495E3F1E9D3A5900E8791B /* ViewController.swift */,
+				C6E0479E1E9DF68900A9DF1C /* HomeViewController.swift */,
+				C6E047A01E9DF6FC00A9DF1C /* RecordViewController.swift */,
 				C6495E411E9D3A5900E8791B /* Main.storyboard */,
 				C6495E471E9D3A5900E8791B /* Assets.xcassets */,
 				C6495E491E9D3A5900E8791B /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6495E461E9D3A5900E8791B /* SoundBoard.xcdatamodeld in Sources */,
-				C6495E401E9D3A5900E8791B /* ViewController.swift in Sources */,
 				C6495E3E1E9D3A5900E8791B /* AppDelegate.swift in Sources */,
+				C6E0479F1E9DF68900A9DF1C /* HomeViewController.swift in Sources */,
+				C6E047A11E9DF6FC00A9DF1C /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				C6495E511E9D3A5900E8791B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
